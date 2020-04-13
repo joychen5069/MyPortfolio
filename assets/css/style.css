@@ -10,6 +10,10 @@ footer {
     color: #000 !important;
 }
 
+.bio {
+    margin-top: 0px;
+}
+
 ul.feature-icons li:before {
     background: rgb(40, 129, 156);
     border-radius: 100%;
