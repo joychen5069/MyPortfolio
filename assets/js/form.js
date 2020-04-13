@@ -1,4 +1,6 @@
 //set so that users cannot submit empty forms
+
+//this still doesnt work
 function displayMessage(type, message) {
     msgDiv.textContent = message;
     msgDiv.setAttribute("class", type);
@@ -6,6 +8,8 @@ function displayMessage(type, message) {
 
 
 $("#send").on("click", function(event) {
-    if ($("#name") === "" )
-    displayMessage("error" "Please enter your name")
+    if ($("#name") === "" ) {
+        preventDefault();
+    displayMessage("error", "Please enter your name")
+    }
 })

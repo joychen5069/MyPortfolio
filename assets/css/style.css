@@ -1,0 +1,25 @@
+header,
+.scrolly,
+#nav,
+footer {
+    background-color: rgb(40, 129, 156);
+}
+
+#header > nav ul li a.active {
+    background: #fff;
+    color: #000 !important;
+}
+
+ul.feature-icons li:before {
+    background: rgb(40, 129, 156);
+    border-radius: 100%;
+    color: #ffffff;
+    display: block;
+    height: 2.5em;
+    left: 0;
+    line-height: 2.5em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 2.5em;
+}
