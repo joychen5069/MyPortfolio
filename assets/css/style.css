@@ -5,13 +5,19 @@ footer {
     background-color: rgb(40, 129, 156);
 }
 
+body {
+    color: #000;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
 #header > nav ul li a.active {
     background: #fff;
     color: #000 !important;
 }
 
-.bio {
+p {
     margin-top: 0px;
+    margin-bottom: 1rem;
 }
 
 ul.feature-icons li:before {
