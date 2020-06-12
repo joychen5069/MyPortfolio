@@ -56,6 +56,10 @@ input[type="submit"].primary {
     background-color: rgba(0, 98, 122, 0.739) !important;
 }
 
+input, textarea {
+    background-color:rgb(27, 42, 71);
+}
+
 ul.feature-icons li:before {
     background: rgb(40, 129, 156);
     border-radius: 100%;
