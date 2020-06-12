@@ -2,7 +2,7 @@ header,
 .scrolly,
 #nav,
 footer {
-    background-color: rgb(40, 129, 156);
+    background-color: #235783;
 }
 
 nav {
@@ -12,8 +12,10 @@ h1 {
     margin-bottom: 1rem !important;
 }
 
-body {
-    color: #000;
+body,
+section {
+    color: rgb(221, 221, 221) !important;
+    background-color: #183C5B !important;
     font-family: 'Source Sans Pro', sans-serif;;
 }
 
@@ -39,4 +41,8 @@ ul.feature-icons li:before {
     text-align: center;
     top: 0;
     width: 2.5em;
+}
+
+footer {
+    padding: 10px 10px 10px 10px !important;
 }
