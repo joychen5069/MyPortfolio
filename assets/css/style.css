@@ -16,7 +16,8 @@ body,
 section {
     color: rgb(221, 221, 221) !important;
     background-color: #183C5B !important;
-    font-family: 'Source Sans Pro', sans-serif;;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
 }
 
 #header > nav ul li a.active {
@@ -24,17 +25,30 @@ section {
     color: #000 !important;
 }
 
+#main > section {
+    border-top: solid 3px  rgba(0, 204, 255, 0.739) !important;
+}
+
 p {
     margin-top: 0px !important;
     margin-bottom: 1rem;
 }
 
-h3 {
+h3,
+h4 {
     color: white !important;
 }
 
 #titleBar .toggle:before {
     background:  #235783 !important;
+}
+
+input[type="submit"].primary:hover {
+    background-color: rgba(0, 204, 255, 0.739) !important;
+}
+
+input[type="submit"].primary {
+    background-color: rgba(0, 98, 122, 0.739) !important;
 }
 
 ul.feature-icons li:before {
