@@ -20,13 +20,21 @@ section {
 }
 
 #header > nav ul li a.active {
-    background: #fff;
+    background: rgba(0, 204, 255, 0.739);
     color: #000 !important;
 }
 
 p {
     margin-top: 0px !important;
     margin-bottom: 1rem;
+}
+
+h3 {
+    color: white !important;
+}
+
+#titleBar .toggle:before {
+    background:  #235783 !important;
 }
 
 ul.feature-icons li:before {
