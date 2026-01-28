@@ -12,15 +12,15 @@ function Intro() {
             <div className='intro'>
 
                 <TypingEffect className="mb-2" tag="h1" typingSpeed={100}>
-                    YOUR NAME
+                    JOY CHEN
                 </TypingEffect>
 
                 <TypingEffect className="text-secondary intro-subtitle mt-0" tag="h2" typingSpeed={50}>
-                    YOUR TITLE
+                    SOFTWARE DEVELOPER
                 </TypingEffect>
 
                 <p className='subtitle text-secondary'>
-                    Write a short description about yourself
+                    I have 5 years of experience as a software engineer specializing in TypeScript, JavaScript, and responsive web design. I focus on building high quality, accessible applications through close collaboration with design and product teams. Before moving into tech, I served as a law enforcement officer, which shaped my drive to build tools that truly improve lives. Now I combine that unique perspective with a passion for clean code to create functional, innovative solutions for users.
                 </p>
 
                 <SkillsSummary />

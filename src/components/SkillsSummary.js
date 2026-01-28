@@ -29,13 +29,13 @@ function SkillsSummary() {
             </a>
             <div className={`skills-summary ${isSkillSumOpen ? 'show' : ''}`}>
                 <p className='subtitle'>
-                    Languages: <span className='text-secondary'>JavaScript, Python, PHP, SQL, HTML/CSS</span>
+                    Languages: <span className='text-secondary'>JavaScript, TypeScript, HTML/CSS</span>
                 </p>
                 <p className='subtitle'>
-                    Frameworks: <span className='text-secondary'>React, Next.js, Node, Django, Bootstrap, Wordpress</span>
+                    Frameworks: <span className='text-secondary'>React, Node, Angular, Playwright, Bootstrap</span>
                 </p>
                 <p className='subtitle'>
-                    Dev tools: <span className='text-secondary'>Git/GitHub, Figma, Adobe suite</span>
+                    Dev tools: <span className='text-secondary'>Git/GitHub, Docker, Jenkins CI/CD</span>
                 </p>
             </div>
         </div>
