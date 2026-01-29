@@ -6,12 +6,12 @@ function IntroSection(props) {
             <div className='col-8'>
                 {props.children}
             </div>
-            <div className='col-md-4'>
+            <div className='col-md-4 img-fluid rounded-circle'>
                 <img 
                 src='/images/headshot.jpg'
                 alt='Headshot'
-                className='img-fluid rounded-circle'
-                style={{ maxWidth: '250px' }}
+                className='img-fluid rounded-3'
+                style={{ width: '250px', height: '250px', objectFit: 'cover' }}
                 />
             </div>
         </div>

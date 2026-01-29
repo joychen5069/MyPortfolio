@@ -1,14 +1,14 @@
 {
     "Email": {
-        "url": "mailto:youremail@example.com",
+        "url": "mailto:joychen5069@gmail.com",
         "iconClassName": "bi bi-envelope-fill"
     },
     "LinkedIn": {
-        "url": "https://linkedin.com/in/your-linkedin",
+        "url": "https://www.linkedin.com/in/joy-chen-5069/",
         "iconClassName": "bi bi-linkedin"
     },
     "GitHub": {
-        "url": "https://github.com/your-profile",
+        "url": "https://github.com/joychen5069/",
         "iconClassName": "bi bi-github"
     },
     "Medium": {
